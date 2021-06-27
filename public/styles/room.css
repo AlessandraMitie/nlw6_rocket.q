@@ -53,7 +53,7 @@
 
 #question-form form textarea{
     resize: none;
-    background: transparent;
+    background: none;
 
     width: 100%;
     outline: none;
@@ -79,7 +79,7 @@
 }
 
 #question-form form footer > div img {
-    margin-right: 0.9rem;
+    margin-right: .9rem;
 }
 
 #question-form form footer button {

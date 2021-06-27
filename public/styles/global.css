@@ -1,8 +1,9 @@
-*{
+* {
     margin: 0;
     padding: 0;
     border: none;
-    text-decoration: none;box-sizing: border-box;
+    text-decoration: none;
+    box-sizing: border-box;
 }
 
 html {
@@ -67,7 +68,7 @@ input, button, .button {
 }
 
 button, .button {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-weight: 500;
     line-height: 0;
 
@@ -79,7 +80,6 @@ button, .button {
     color: var(--white);
 
     transition: filter .2s;
-
     cursor: pointer;
 }
 
