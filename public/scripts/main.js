@@ -13,3 +13,12 @@ checkButtons.forEach(button => {
         modal.open()
     })
 })
+
+// quando o botão delete for clicado, ele abre o modal
+const deleteButton = document.querySelectorAll(".actions a.delete")
+
+deleteButton.forEach(button => {
+    button.addEventListener("click", event => {
+        modal.open()
+    })
+})
