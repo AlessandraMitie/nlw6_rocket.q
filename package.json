@@ -4,7 +4,8 @@
   "description": "Projeto desenvolvido na semana NLW 6 da Rocketseat, missão Discover",
   "main": "src/server.js",
   "scripts": {
-    "start": "nodemon ."
+    "start": "nodemon .",
+    "init-db": "node src/db/init.js"
   },
   "repository": {
     "type": "git",
